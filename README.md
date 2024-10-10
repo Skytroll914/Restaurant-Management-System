@@ -119,6 +119,8 @@ To add on, multiple validations are also done witihn the system. For example:
 - Check if input is integer
 - Check if input is double
 - Check if the input is within the system record or not
+- Check if input format is correct or not
+- many more..... {i think XD)
 
 It is also important to note that this project uses global struct and variables (Not really recommended for security and error prevention purposes, but since its a personal project it should be fine :D ). The global struct saves customer information of the user that just logged in as a customer. 
 
