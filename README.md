@@ -1,12 +1,16 @@
 # Restaurant-Management-System
 This project uses C++ as its programming language. It is a simple restaurant management system covering both admin and customers.
 
+
+
+
 # Details regarding target users
 As mentioned above, this system is for both admins and customers.
 
 Admins are personnel employees that manages and uses the restaurant system either for configuration purposes or viewing purposes.
 
 Customers are individuals that wish to place orders through this system.
+
 
 ## Admin Informations:
 - Admin Name
@@ -26,6 +30,10 @@ Customers are individuals that wish to place orders through this system.
 - Item Name
 - Item Price
 - Item Type (Main Dish / Side Dish / Drinks)
+
+
+
+
 
 
 # What does it do?
@@ -54,15 +62,23 @@ System first ask whether the user wishes to utilize the system as an admin or cu
 - Allow customer to view their own transaction history.
 
 
+
+
+
+
 # Database -> Text File Format:
 ## admin_login.txt
 - Admin Name
 - Admin Password
 
+
+
 ## customer_login.txt
 - Customer ID
 - Customer Name
 - Customer Password
+
+
 
 ## customer_info.txt
 - Customer ID
@@ -72,10 +88,14 @@ System first ask whether the user wishes to utilize the system as an admin or cu
 - Customer Wallet
 - Customer Membership
 
+
+
 ## transaction.txt
 - Transaction ID
 - Customer ID
 - Total Cost
+
+
 
 ## transaction_info.txt
 - Transaction ID
@@ -83,6 +103,10 @@ System first ask whether the user wishes to utilize the system as an admin or cu
 - Total Item Ordered
   - Item ID
   - Item Count Ordered
+
+
+
+
 
 
 # How is this project done?
@@ -99,6 +123,11 @@ To add on, multiple validations are also done witihn the system. For example:
 It is also important to note that this project uses global struct and variables (Not really recommended for security and error prevention purposes, but since its a personal project it should be fine :D ). The global struct saves customer information of the user that just logged in as a customer. 
 
 Furthermore, when reading data from text files, they are first placed within an array first before used to verify / output specific content.
+
+
+
+
+
 
 
 # Experience Gained (Personal note - hehe XD )
